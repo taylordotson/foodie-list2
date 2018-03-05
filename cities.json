@@ -1,0 +1,59 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "city": "Itupeva",
+            "trip_purpose": "lectus vestibulum quam sapien varius ut blandit non interdum in"
+        },
+        {
+            "id": 2,
+            "city": "Changsheng",
+            "trip_purpose": "blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu"
+        },
+        {
+            "id": 3,
+            "city": "Mingelchaur",
+            "trip_purpose": "odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel"
+        },
+        {
+            "id": 4,
+            "city": "Bigoudine",
+            "trip_purpose": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec"
+        },
+        {
+            "id": 5,
+            "city": "La Soledad",
+            "trip_purpose": "dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat"
+        },
+        {
+            "id": 6,
+            "city": "Shengshan",
+            "trip_purpose": "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id"
+        },
+        {
+            "id": 7,
+            "city": "Nashville",
+            "trip_purpose": "magna ac consequat metus sapien ut nunc vestibulum ante ipsum"
+        },
+        {
+            "id": 8,
+            "city": "Rabat",
+            "trip_purpose": "quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo"
+        },
+        {
+            "id": 9,
+            "city": "Hamilton",
+            "trip_purpose": "vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac"
+        },
+        {
+            "id": 10,
+            "city": "El Llano",
+            "trip_purpose": "augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec"
+        },
+        {
+            "id": 11,
+            "city": "Longwu",
+            "trip_purpose": "felis donec semper sapien a libero nam dui proin leo odio porttitor"
+        }
+    ]
+}
