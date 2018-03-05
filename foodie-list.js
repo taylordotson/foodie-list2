@@ -39,7 +39,6 @@ getData("/restaurants.json")
 
         getCityListData("/cities.json")
             .then((citiesArray) => {
-                console.log("test");
                 console.log(citiesArray.cities);
 
 
@@ -58,10 +57,10 @@ getData("/restaurants.json")
                 }
 
                 let citySelectionIdValue = document.getElementsByTagName("option")[0].getAttribute("value");
-                var src = document.getElementById("homePic");
+                var src = document.getElementById("output");
 
                 $("#citiesSelect").change(function () {
-                    src.innerHTML = ``; //Eliminates home img tag
+                    src.innerHTML = ``;
                     let e = document.getElementById("citiesSelect");
                     let citySelectionValue = e.options[e.selectedIndex].value;
                     console.log(citySelectionValue);
@@ -72,8 +71,6 @@ getData("/restaurants.json")
                     });
 
                     if (citySelectionValue === "all") {
-                        console.log("this works");
-
                         for (let i = 0; i < restarauntByRatingsObj.length; i++) {
                             document.getElementById("restaraunts").innerHTML += `${i + 1}. ${restarauntByRatingsObj[i].restaurant} <br>   `;
                         }
@@ -89,12 +86,6 @@ getData("/restaurants.json")
                         src.innerHTML = `<img src="/imHome.jpg">`;
                     }
                 });
-
-
-                let restarauntToAdd = document.getElementById("addRestarauntNameInput");
-                let ratingToAdd = document.getElementById("addRatingInput");
-                let dateToAdd = document.getElementById("addDateVisitedInput");
-                let idToAdd = restarauntByRatingsObj.length + 1;
             });
     });
 
